@@ -1,0 +1,47 @@
+* {
+    font-family: sans-serif;
+    background-color: bisque;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-left: 1em;
+    margin-right: 1.5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+main article{
+    margin-top: 25px;
+}
+
+main img{
+    float: right;
+}
+
+
+button {
+    margin: 10px;
+}
+
+main .feedback{
+    align-self: flex-start;
+    margin-top: 25px;
+}
+
